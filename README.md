@@ -1,7 +1,27 @@
-# egg_heads
-## Roadmap: 
-
 ```https://egg-heads.herokuapp.com/```
+
+# Summary
+Ever wonder what you can make with what you have in your kitchen and wish a chef could tell you? Here you go.
+Egg-heads is a three person backend project made over the course of 3 days which allows users to add ingredients to their 'fridge' and have matching Chef-level usermade recipes returned which use their ingredients. Complete with protected routes and users with different priveleges.
+
+* Note: Creating a front end for this project is an upcoming project.
+
+## Technical Stack
+* Javascript 
+* Node
+* Express
+* MongoDB/Mongoose
+* MLab
+* Heroku 
+
+## Team
+* Nicky Evers
+* Yuval Allweil
+* Morgan Fogarty
+
+## To Run
+- Download Postman or open through browser
+https://www.getpostman.com/apps
 
 ### Chef workflow:
 
@@ -94,8 +114,6 @@
         ```js
         { "meal": "<mealID>" }
         ```
-        
-# ACTUAL README
 
 ### Examples:
 - POST to /meals as chef
@@ -143,21 +161,3 @@ If you do this, you must sign in again and take your new token when posting to /
         }
     ]
     ```
-
-
-
-        notes for us right now:
-
-        59149c8b2b50558d2e1fb6ff
-        59149c8b2b50558d2e1fb700
-        59149c8b2b50558d2e1fb701
-    
-    {
-        "name": "stir fry",
-        "ingredients": 
-            [
-            "59149c8b2b50558d2e1fb6ff",
-    		"59149c8b2b50558d2e1fb700",
-        	"59149c8b2b50558d2e1fb701"
-            ]
-        }
